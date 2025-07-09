@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
-from transformers import AdamW
+from torch.optim import AdamW
 from datasets.text_dataset import TextEmotionDataset
 from utils.label_map import label_map, id2label
 from models.text_encoder import TextEncoder
